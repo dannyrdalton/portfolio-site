@@ -407,12 +407,13 @@ body {
   left: 0;
   top: 0;
   height: 100px;
-  width: 140px;
+  width: 145px;
   text-align: center;
   line-height: 100px;
   z-index: 2;
-  font-size: 3em;
-  font-family: qwigley, cursive;
+  font-size: 1.8em;
+  font-family: inconsolata, sans-serif;
+  color: rgb(70, 70, 70);
 }
 
 .my-name:hover {
