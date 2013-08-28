@@ -402,6 +402,23 @@ body {
   font-weight: 300;
 }
 
+.my-name {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 140px;
+  text-align: center;
+  line-height: 100px;
+  z-index: 2;
+  font-size: 3em;
+  font-family: qwigley, cursive;
+}
+
+.my-name:hover {
+  cursor: pointer;
+}
+
 .header {
   width: 100%;
   height: 100px;
@@ -422,7 +439,7 @@ body {
 
 .menu-item {
   display: inline-block;
-  width: 24.26%;
+  width: 32.5%;
   text-align: center;
 }
 
@@ -484,8 +501,11 @@ body {
     bottom: 0px;
   }
 }
+.bio-blurb {
+  background: rgb(128, 175, 191);
+}
 
-.bio-blurb, .skills-blurb {
+.skills-blurb {
   background: rgb(210, 73, 57);
   color: rgb(237, 238, 232);
 }
@@ -545,7 +565,7 @@ body {
 }
 
 .work-info {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   padding-top: 40px;
 }
@@ -605,7 +625,7 @@ body {
 }
 
 .skills-bar-wrapper {
-  width: 80%;
+  width: 75%;
   margin: 40px auto auto;
   font-size: 1.1em;
 }
@@ -687,7 +707,7 @@ body {
 /* Profile */
 
 .bio {
-  background: rgb(210, 73, 57);
+  background: rgb(128, 175, 191);
 }
 
 .bio-img {
@@ -730,4 +750,9 @@ body {
 .resume {
   background: rgb(210, 73, 57);
   height: 550px;
+}
+
+object {
+  width: 100%;
+  height: 650px;
 }

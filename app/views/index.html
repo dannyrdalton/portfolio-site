@@ -6,6 +6,7 @@
 		<title>Danny Dalton</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="//use.edgefonts.net/inconsolata:n5,n7;josefin-sans:n1,i1,n3,i3,n4,i4,n6,i6,n7,i7.js"></script>
+		<script src="//use.edgefonts.net/qwigley.js"></script>
 		<script type="text/javascript" src="js/lib/angular.min.js"></script>
 		<script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
 		<script type="text/javascript" src="js/app/main.js"></script>
@@ -13,17 +14,19 @@
 		<script type="text/javascript" src="js/config/push-state.js"></script>
 		<script type="text/javascript" src="js/config/utf8.js"></script>
 		<script type="text/javascript" src="js/app/services/info-service.js"></script>
+		<script type="text/javascript" src="js/app/controllers/application-controller.js"></script>
 		<script type="text/javascript" src="js/app/controllers/home-controller.js"></script>
 		<script type="text/javascript" src="js/app/controllers/services-controller.js"></script>
 		<script type="text/javascript" src="js/app/controllers/profile-controller.js"></script>
 		<script type="text/javascript" src="js/app/controllers/work-controller.js"></script>
 		<script type="text/javascript" src="js/app/controllers/resume-controller.js"></script>
 	</head>
-	<body>
+	<body ng-controller="AppCtrl">
+		<div class="my-name" ng-click="goTo('/')">drdalton</div>
 		<div class="header">
 			<div class="menu-wrapper">
 				<div class="menu-item"><a href="/profile">PROFILE</a></div>
-				<div class="menu-item"><a href="/services">SERVICES</a></div>
+				<!--<div class="menu-item"><a href="/services">SERVICES</a></div> -->
 				<div class="menu-item"><a href="/work">WORK</a></div>
 				<div class="menu-item"><a href="/resume">RESUME</a></div>
 			</div>
