@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html ng-app="ddsite" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Danny Dalton</title>
+		<link rel="shortcut icon" href="img/d-icon.png" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="//use.edgefonts.net/inconsolata:n5,n7;josefin-sans:n1,i1,n3,i3,n4,i4,n6,i6,n7,i7.js"></script>
+		<script src="//use.edgefonts.net/qwigley.js"></script>
+		<script src="//use.edgefonts.net/inconsolata.js"></script>
+		<script type="text/javascript" src="js/lib/angular.min.js"></script>
+		<script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
+		<script type="text/javascript" src="js/app/main.js"></script>
+		<script type="text/javascript" src="js/config/routes.js"></script>
+		<script type="text/javascript" src="js/config/push-state.js"></script>
+		<script type="text/javascript" src="js/config/utf8.js"></script>
+		<script type="text/javascript" src="js/app/services/info-service.js"></script>
+		<script type="text/javascript" src="js/app/controllers/application-controller.js"></script>
+		<script type="text/javascript" src="js/app/controllers/home-controller.js"></script>
+		<script type="text/javascript" src="js/app/controllers/services-controller.js"></script>
+		<script type="text/javascript" src="js/app/controllers/profile-controller.js"></script>
+		<script type="text/javascript" src="js/app/controllers/work-controller.js"></script>
+		<script type="text/javascript" src="js/app/controllers/resume-controller.js"></script>
+	</head>
+	<body ng-controller="AppCtrl">
+		<div class="my-name" ng-click="goTo('/')">drdalton</div>
+		<div class="header">
+			<div class="menu-wrapper">
+				<div class="menu-item"><a href="/profile">PROFILE</a></div>
+				<!--<div class="menu-item"><a href="/services">SERVICES</a></div> -->
+				<div class="menu-item"><a href="/work">WORK</a></div>
+				<div class="menu-item"><a href="/resume">RESUME</a></div>
+			</div>
+		</div>
+		<div ng-view></div>
+		<div class="contact-me">
+			<div class="contact-icon">
+				<div class="icon-wrapper">
+					<svg width="70" height="70">
+						<circle r="35" cx="35" cy="35" fill="#FF9900"></circle>
+						<path d="M 10, 16 L 60, 16 L 35, 41 z" fill="rgb(70, 70, 70)" />
+						<path d="M 10, 18 L 10, 52 L 27, 35 z" fill="rgb(70, 70, 70)" />
+						<path d="M 60, 18 L 60, 52 L 43, 35 z" fill="rgb(70, 70, 70)" />
+						<path d="M 12, 52 L 58, 52 L 42, 36 L 35, 43 L 28, 36 z" fill="rgb(70, 70, 70)" />
+					</svg>
+				</div>
+			</div>
+			<div class="call-to-action">CONTACT ME</div>
+			<div class="contact-info">
+				<a href="mailto:dannyrdalton@gmail.com">dannyrdalton@gmail.com</a>
+			</div>
+			<div class="social-link-container">
+				<div class="social-links">
+					<a href="https://github.com/dannyrdalton" target="_blank">
+						<span class="github-link"><img src="img/github-icon.png"></span>
+					</a>
+					<a href="https://linkedin.com/in/dannyrdalton" target="_blank">
+						<span class="linkedin-link"><img src="img/linkedin-icon.png"></span>
+					</a>
+					<a href="https://soundcloud.com/mantranova" target="_blank">
+						<span class="soundcloud-link"><img src="img/soundcloud-icon.png"></span>
+					</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy;&nbsp;</span><span>August 2013, San Francisco, California</span>
+			</div>
+		</div>
+	</body>
+</html>
