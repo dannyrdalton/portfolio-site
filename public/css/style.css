@@ -523,6 +523,15 @@ body {
   color: rgb(237, 238, 232);
 }
 
+.skills-greeting {
+  padding-bottom: 30px;
+}
+
+.skills-name {
+  font-size: 1.4em;
+  padding-top: 5px;
+}
+
 .work-greeting {
   color: rgb(70, 70, 70);
 }
@@ -625,13 +634,11 @@ body {
 
 .skills-bar-wrapper {
   width: 75%;
-  margin: 40px auto auto;
-  font-size: 1.1em;
+  margin: 20px auto;
 }
 
 .skills-bar {
   height: 25px;
-  line-height: 25px;
   background: #C23221;
 }
 
@@ -760,6 +767,7 @@ object {
   height: 650px;
 }
 
+
 @media only screen and (max-device-width: 767px), only screen and (max-width: 767px) {
 
   .my-name {
@@ -777,7 +785,7 @@ object {
   }
 
   .bio-info, .project-description {
-    font-size: 1.8em;
+    font-size: 32pt;
     max-width: 80%;
     min-width: 300px;
   }
@@ -785,3 +793,25 @@ object {
   .work-info, .bio-img {
     width: 80%;
   }
+
+  .profile-btn, .work-btn, .resume-btn {
+    width: 60%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid white;
+    color: white;
+    font-weight: 400;
+  }
+
+  .skills-name {
+    padding-top: 5px;
+    font-size: 0.75em;
+    line-height: 0.6em;
+  }
+
+  .skills-bar-wrapper {
+    padding-bottom: 35px;
+  }
+}
