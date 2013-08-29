@@ -732,6 +732,10 @@ body {
   background: rgb(227, 226, 224);
 }
 
+.work {
+  padding-bottom: 20px;
+}
+
 .project-title {
   padding-top: 40px;
   font-size: 1.8em;
