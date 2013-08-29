@@ -1,0 +1,14 @@
+<svg width="70px" height="70px">
+	<circle r="35" cx="35" cy="35" fill="#FF9900">
+	 </circle>
+	 <path d="M 5,35 C 20,10 50,10 65,35 C 50,60 20,60 5,35" fill="white">
+	 </path>
+	 <circle r="15" cx="35" cy="35" fill="rgb(128, 175, 191)">
+	 	<animate dur="30s" attributeName="cx" values="35; 35; 35; 35; 35; 24; 24; 35; 35; 35; 35; 35; 35; 46; 46; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35;" repeatCount="indefinite" />
+	 	<animate dur="30s" attributeName="cy" values="35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 31; 31; 35; 35; 35; 39; 39; 35;" repeatCount="indefinite" /> 
+	 </circle>
+	 <circle r="4" cx="35" cy="35" fill="black">
+	 	<animate dur="30s" attributeName="cx" values="35; 35; 35; 35; 35; 24; 24; 35; 35; 35; 35; 35; 35; 46; 46; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35;" repeatCount="indefinite"/>
+	 	<animate dur="30s" attributeName="cy" values="35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 35; 31; 31; 35; 35; 35; 39; 39; 35;" repeatCount="indefinite" /> 
+	 </circle>
+</svg>
