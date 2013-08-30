@@ -48,7 +48,7 @@ app.service('SiteInfo', ['$rootScope', function($rootScope) {
 			"<br/><br/> This project was the first time I really got my hands dirty with Angular, and quickly fell " +
 			"in love. While quite a big change from the traditional coding style of jQuery, it made organizing the " +
 			"front-end of a web application a breeze, and the resulting code much more readable and maintainable. " +
-			"I knew I had to build more things using this exceptional framework."
+			"I knew I was going using this exceptional framework in future projects."
 		},
 		{ 
 			name: "NutriGroup", 
