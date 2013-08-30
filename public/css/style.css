@@ -805,6 +805,11 @@ object {
     font-weight: 400;
   }
 
+  .work-btn {
+    color: rgb(70, 70, 70);
+    border: 2px solid rgb(70, 70, 70);
+  }
+
   .skills-name {
     padding-top: 5px;
     font-size: 0.75em;
