@@ -568,6 +568,12 @@ body {
   color: rgb(187, 183, 184);
 }
 
+a.work-btn {
+  display: block;
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+
 .work-blurb {
   background: rgb(227, 226, 224);
 }
@@ -684,7 +690,7 @@ body {
 
 .social-links {
   margin: 0 auto;
-  width: 140px;
+  width: 132px;
   height: 40px;
 }
 
@@ -693,16 +699,13 @@ body {
 }
 
 .github-link {
-  float: left;
 }
 
 .linkedin-link {
-  position: relative;
-  left: 10px;
+  
 }
 
 .soundcloud-link {
-  float: right;
 }
 
 .copyright {

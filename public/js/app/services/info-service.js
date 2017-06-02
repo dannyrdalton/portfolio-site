@@ -2,15 +2,17 @@ app.service('SiteInfo', ['$rootScope', function($rootScope) {
 	var self = this;
 
 	this.skills = [
-		{ name: "Javascript", width: "95%" },
-		{ name: "Angular.js", width: "95%" },
-		{ name: "Node.js", width: "90%" },
-		{ name: "Ruby on Rails", width: "90%" },
-		{ name: "iOS", width: "85%"  },
-		{ name: "Amazon Web Services", width: "85%" },
-		{ name: "Java", width: "80%" },
-		{ name: "C++", width: "75%" },
-		{ name: "C", width: "70%" }
+		{ name: "Javascript", width: "100%" },
+		{ name: "Angular.js", width: "100%" },
+		{ name: "React.js", width: "90%" },
+		{ name: "Redux", width: "90%" },
+		{ name: "Node.js", width: "85%" },
+		{ name: "Ruby on Rails", width: "80%" },
+		{ name: "iOS", width: "80%"  },
+		{ name: "Amazon Web Services/Google Cloud", width: "75%" },
+		{ name: "Java", width: "70%" },
+		{ name: "C++", width: "65%" },
+		{ name: "C", width: "60%" }
 	];
 
 	this.projects = [
@@ -92,6 +94,13 @@ app.service('SiteInfo', ['$rootScope', function($rootScope) {
 			"CPU usage on the host computer was exceeding 90%! I look back on this project fondly as it showed me first hand " +
 			"why distributed computing is necessary to make fast, scalable web applications, inspired me to start learning how to design " +
 			"and architect these systems."
+		},
+		{
+			name: "Futuregift",
+			tags: "Javascript (Angular, jQuery, Node.js (loopback.io), HTML5, CSS3",
+			imgPath: "",
+			urlExtension: "futuregift",
+			description: ""
 		}
 	];
 
